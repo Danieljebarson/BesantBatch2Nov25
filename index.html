@@ -182,37 +182,99 @@ div - block level container group for styling
        function doSomething() {
          document.getElementById("p1").innerHTML = "Goodbye Students"
        }
-    </script>   -->
+    </script>   
 
-    <form action="studentsData.py"  method="POST">
-    <label for="username">Username: </label>
-    <input id="username" placeholder="sriram_007" type="text" minlength="6" maxlength="10" required> 
-     <br><br>
-    <label for="password">Password: </label>
-    <input id="username"  type="password"  minlength="6" required> 
-    <br><br>
+    <form action="studentsData.py" method="POST"  enctype="multipart/form-data">
+      <label for="username">Username: </label>
+      <input
+        id="username"
+        placeholder="sriram_007"
+        type="text"
+        minlength="6"
+        maxlength="10"
+        required
+      />
+      <br /><br />
+      <label for="password">Password: </label>
+      <input id="username" type="password" minlength="6" required />
+      <br /><br />
 
-    <label for="email">Email: </label>
-    <input type="email" id="email" placeholder="sriram123@gmail.com" >
-     <br><br>
+      <label for="email">Email: </label>
+      <input type="email" id="email" placeholder="sriram123@gmail.com" />
+      <br /><br />
 
-     <label for="phone">Phone no</label>
-     <input type="tel" id="phone" placeholder=" 91-99999-00000" pattern="[0-9]{2}-[0-9]{5}-[0-9]{5}" >
+      <label for="phone">Phone no</label>
+      <input
+        type="tel"
+        id="phone"
+        placeholder=" 91-99999-00000"
+        pattern="[0-9]{2}-[0-9]{5}-[0-9]{5}"
+      />
 
-     <br><br>
-     <label for="bday">Birthdate: </label>
-     <input type="date" id="bday">
+      <br /><br />
+      <label for="bday">Birthdate: </label>
+      <input type="date" id="bday" />
 
-     <br><br>
-     <label for="quantity">Quantity: </label>
-     <input type="number" id="quantity" value="1" min="0" max="10">
-    
-    <br> <br>
-    <input type="submit">
-    <input type="reset">
-   
-    </form>
-    
+      <br /><br />
+      <label for="quantity">Quantity: </label>
+      <input type="number" id="quantity" value="1" min="0" max="10" />
+      <br />
+      <br />
+
+      <label for="title">Title: </label>
+      <label for="Mr.">Mr.: </label>
+      <input type="radio" name="title" id="Mr." value="Mr." />
+      <label for="Ms.">Ms.: </label>
+      <input type="radio" name="title" id="Ms." value="Ms." />
+      <label for="Dr.">Dr.: </label>
+      <input type="radio" name="title" id="Dr." value="Dr." />
+      <br /><br />
+
+      <label for="country">Country: </label>
+      <select name="" id="country">
+        <option value="india">India</option>
+        <option value="france">France</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+      </select>
+      <br /><br />
+
+      <label for="checkbox">Accept terms and condition</label>
+      <input type="checkbox" id="checkbox" />
+      <br /><br />
+
+      <label for="comment">Comment</label>
+      <textarea name="" id="comment"  rows="10" cols="50" ></textarea>
+      <br><br>
+
+      <label for="file">Upload Resume: </label>
+      <input type="file" name="" id="file"  accept="image/png, image/jpeg" >
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>  -->
+
+    <header style="background-color: lawngreen;" >
+        <h1>Welcome to College Website For student Login</h1>
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">About us</a>
+        <a href="">Contact Us</a>
+        <hr>
+    </header>
+    <main>
+
+          <h4>Check out the image</h4>
+          <img src="Images/puppy-eyes-puppy.gif" alt="this is dog img">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit amet minus nostrum dicta nesciunt blanditiis labore. Fugit, corporis. Aliquid aperiam voluptates molestias adipisci corporis et facere distinctio illum iste.</p>
+
+      <footer>
+        <hr>
+        author: Sriram123 <br>
+        &copy; copyright reserved <br>
+        <a href="mailto:Sriram123@gmail.com"><small>Sriram123@gmail.com</small></a>
+      </footer>
+    </main>
 
 
 
