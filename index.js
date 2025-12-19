@@ -1,5 +1,7 @@
 // Javascript - It is Web based programming language
 
+// const { use } = require("react");
+
 // Most popular we broswers is made up of javascript
 
 // document.getElementById("myH1").textContent = "Hello students";
@@ -225,7 +227,6 @@
 //     break;
 // }
 
-
 // let testScore = 65;
 
 // let grade;
@@ -250,3 +251,81 @@
 // }
 
 // console.log(grade);
+
+// String and methods -  built in methods which allow us to manipulate and work with text (strings)
+
+// clooection of character called string 'u'
+// "colbnm"
+
+// let userName = "mani_student";
+
+// let result = userName.startsWith(" ");
+// let result = userName.endsWith("i");
+// let result = userName.includes(" ");
+
+// console.log(result);
+
+// let res = result
+//   ? "Your username cant be space in between"
+//   : console.log(userName);
+
+// console.log(res);
+
+// if(result) {
+//   console.log("Your username cant starts with space");
+
+// } else {
+//     console.log(userName);
+
+// }
+
+// console.log(userName.repeat());
+
+// console.log(userName.toLowerCase());
+
+// console.log(userName.trim());
+// console.log(userName.length);
+
+// postion or index 0 to n-1
+// length = 4 (n)
+
+// const result = userName.charAt(3)
+// console.log(result);
+
+// const result = userName.indexOf("a");
+// console.log(result);
+
+// const result = userName.lastIndexOf("a");
+// console.log(result);
+
+// let phoneNumber = "91-98988-78776";
+
+// phoneNumber = phoneNumber.replaceAll("-", "₹");
+
+// console.log(phoneNumber);
+
+// String slicing - creating a substring from a protion of another string
+
+// string.slice(start, end);
+
+// const fullName = "Siva kumar";
+
+// const email = manikandan@gmail.com;
+
+// let firstName = fullName.slice(0, 4);
+// let lastName = fullName.slice(5);
+
+// let firstChar = fullName.slice(0, 1);
+// let lastChar = fullName.slice(-1);
+
+// let firstName = fullName.slice(0, fullName.indexOf(" "));
+
+// let lastName = fullName.slice(fullName.indexOf(" ") + 1);
+
+// let firstChar = fullName.slice();
+// let lastChar = fullName.slice();
+
+// console.log(firstName);
+// console.log(lastName);
+// console.log(firstChar);
+// console.log(lastChar);
