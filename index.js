@@ -329,3 +329,100 @@
 // console.log(lastName);
 // console.log(firstChar);
 // console.log(lastChar);
+
+// Method chaining - calling one methods after  another method
+
+// in one contionous line of code
+
+// no method chaining
+
+// let username = window.prompt("Enter your username");
+
+// username  = username.trim();
+// let letter = username.charAt(0);
+// letter = letter.toUpperCase(); // M
+
+// // anistudent
+
+// let extraChars = username.slice(1);
+
+// extraChars = extraChars.toLowerCase();
+
+// username = letter + extraChars;
+// console.log(username);
+
+// let username = window.prompt("Enter your username");
+//                     M
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+
+// console.log(username);
+
+// logical operators - used to combine or manipulate boolean values (true or false)
+
+// AND = &&
+//  OR = ||
+// NOT = !
+
+// const temp = -100;
+//     true        false
+// if(temp > 0 && temp <= 30) {
+//     console.log("The weather is good");
+// } else {
+//     console.log("the weather is bad");
+// }
+
+// const temp = 20;
+//     false       true
+// if(temp <=0 || temp > 30) {
+//     console.log("The weather is bad");
+// } else {
+//     console.log("the weather is good");
+// }
+
+// not operator - we can able to flip boolean
+// true -> false
+//  fasle -> true
+
+// const isSunny = true;
+
+// if(!isSunny) {
+//     console.log("it is cloudy");
+// } else {
+//     console.log("it is sunny");
+// }
+
+// = assignment operator
+// == comparison operator (coampre if value are equal)
+// === strict equaltiy operator (compare if values & datatype are equal)
+
+// != inequality operator // this will return true if two values not equal
+// !== strict inequality operator // value and dayatype difffernt means retrurn true
+
+const PI = 3.14;
+
+// if(PI == "3.14") {
+//     console.log("That is Pi");
+// } else {
+//     console.log("That is not PI");
+// }
+
+// if(PI === 3.14) {
+//     console.log("That is Pi");
+// } else {
+//     console.log("That is not PI");
+// }
+// //    number        string
+// // value = 3.14  value = 3.14
+// if(PI != "3.14") {
+// console.log("This is not PIE");
+// } else {
+// console.log("That is PIE");
+// }
+
+//    number        string
+// // value = 3.14  value = 3.14
+// if (PI !== "3.14") {
+//   console.log("This is not PIE " + true);
+// } else {
+//   console.log("That is PIE " + false);
+// }
